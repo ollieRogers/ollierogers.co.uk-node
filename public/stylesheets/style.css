@@ -1,0 +1,1025 @@
+
+/* line 31 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/style.styl */
+
+/* line 1 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/stylus/lib/functions/index.styl */
+
+/* line undefined : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/style.styl */
+/*
+ * Import nib & add moz vendor prefixes
+ */
+
+/* line 293 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/stylus/lib/functions/index.styl */
+
+/* line 14 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/index.styl */
+
+/* line 14 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/index.styl */
+
+/* line 2 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/border.styl */
+
+/* line 12 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/border.styl */
+
+/* line 3 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 31 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/clearfix.styl */
+
+/* line 2 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 6 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/color-image.styl */
+
+/* line 6 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/flex.styl */
+
+/* line 197 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/flex.styl */
+
+/* line 94 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 94 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/gradients.styl */
+
+/* line 94 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/config.styl */
+
+/* line 12 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/config.styl */
+
+/* line 2 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 9 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/iconic.styl */
+
+/* line 2 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/image.styl */
+
+/* line 27 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/image.styl */
+
+/* line 27 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 23 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/overflow.styl */
+
+/* line 9 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/positions.styl */
+
+/* line 73 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/positions.styl */
+
+/* line 15 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/reset.styl */
+
+/* line 79 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/reset.styl */
+
+/* line 5 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 5 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/text/index.styl */
+
+/* line 2 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 14 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/text/aliases.styl */
+
+/* line 2 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 11 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+/* line 11 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 9 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/text/hide-text.styl */
+
+/* line 9 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/text/replace-text.styl */
+
+/* line 10 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/text/replace-text.styl */
+
+/* line undefined : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 576 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/vendor.styl */
+
+/* line 576 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/config.styl */
+
+/* line 12 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/config.styl */
+
+/* line 12 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/size.styl */
+
+/* line 8 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/style.styl */
+/*
+ * import stylus files
+ */
+
+/* line 33 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/size.styl */
+
+/* line 33 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/theme/red-grey.styl */
+@import url("http://fonts.googleapis.com/css?family=Raleway:800,400,200,100");
+
+/* line 22 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/theme/red-grey.styl */
+
+/* line 3 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/variables.styl */
+
+/* line 15 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/style.styl */
+/*
+ * nib global reset
+ */
+
+/* line 16 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/reset.styl */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 19 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/reset.styl */
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+
+/* line 21 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/reset.styl */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 23 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/reset.styl */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 25 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/reset.styl */
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 27 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/reset.styl */
+a img {
+  border: none;
+}
+
+/* line 21 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/style.styl */
+/*
+ * styles
+ */
+
+/* line 26 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/variables.styl */
+
+/* line 5 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/images.styl */
+
+/* line 10 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/images.styl */
+
+/* line 9 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/typography.styl */
+
+/* line 9 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/typography.styl */
+p {
+  line-height: 1.8em;
+  font-weight: normal;
+  padding-bottom: 1em;
+}
+
+/* line 13 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/typography.styl */
+p a {
+  color: #e51c1c;
+  text-decoration: none;
+  -webkit-transition: background-color 300ms ease, color 300ms ease;
+  -moz-transition: background-color 300ms ease, color 300ms ease;
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+/* line 17 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/typography.styl */
+p a:hover {
+  background-color: #e51c1c;
+  color: #f9f9f9;
+}
+
+/* line 20 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/typography.styl */
+h1 {
+  font-size: 40px;
+  padding-bottom: 0.4em;
+  font-family: 'Raleway';
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #e51c1c;
+}
+
+/* line 27 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/typography.styl */
+h2 {
+  font-size: 24px;
+  padding-bottom: 0.5em;
+  font-family: 'Raleway';
+}
+
+/* line 31 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/typography.styl */
+
+/* line 31 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+
+/* line 1 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+nav {
+  height: 80px;
+  background-color: #e51c1c;
+  border-bottom: 5px solid #d01818;
+}
+
+/* line 5 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+nav ul {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 11 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+nav ul li {
+  height: 80px;
+  display: block;
+  float: left;
+}
+
+/* line 15 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+nav ul li a {
+  letter-spacing: 1px;
+  color: #000;
+  text-transform: capitalize;
+  height: 80px;
+  display: block;
+  text-decoration: none;
+  line-height: 80px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 20px;
+  padding: 0 20px;
+  -webkit-transition: color 200ms ease;
+  -moz-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+
+/* line 28 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+nav ul li a:hover {
+  color: #333;
+}
+
+/* line 30 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+nav ul li.logo {
+  -webkit-mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAMAAADWg4HyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAowVGyQAAABB0Uk5TABAgMEBQYHCAj5+vv8/f7yMagooAAAGnSURBVDjLpZVbksQgCEU1vo2K+1/tJBFEk9g9Vc1XjzmDcLmqEL+EMv4Ip+UXTtq99shBfSAj1DmSXqD+Tl709kJuub4G2GdHUFcR12jZTx1CXsGMxt67dIUWwyhAHjrRPh0R7aGvoxSG2YBL7hCj8NabUJgEuhoaP1qhytSV7zvuxCZCLTwkIFhPaYNQb3qpKXFsUkn5JrETvv1oFQNWEEkMq6QOQF1hCsclgNzwo5l1jKjSVYSflio7q8GAFcO5tGMJGWViN9E/Qy+4KabE2MLYtEfi3LDJjzvl0SUW2dDZlg9bTCNLS76zsGQNzojZhHW2/OPpDY96E7qusOSoMExfVNc3YNfsPpojDYmrKmShrGY0CsedSLI+WhP8mdrQUdFYQhvSjsoOlmTLB1QZh2TJffZpyUxOJTExiyKrjigfmnGWFdT9ECVJHfKMUoe3OBRtj9uw1i4uug/6wRWbS+dfOR6e15nXb5O/cvGQVd9jcskgAexOH2FDGTtcwC+63S9VDf+8Uq9Z769XtXl/BHR6kH79Gunpdcn2y7ulXLt/vZG/vJJ/WDY+W13IrNkAAAAASUVORK5CYII=");
+  -webkit-mask-size: 43px 43px;
+  width: 43px;
+  height: 43px;
+  margin-top: 18px;
+  margin-right: 20px;
+  background: #000;
+}
+
+/* line 38 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+
+/* line 39 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+nav ul li.active a {
+  cursor: default;
+  color: #fff;
+}
+
+/* line 42 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+
+/* line 43 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+nav ul li:last-child a {
+  border-right: none;
+}
+
+/* line 45 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/nav.styl */
+
+/* line 45 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+
+/* line 1 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+body {
+  font-family: 'Raleway';
+  background-color: #f9f9f9;
+  color: #5c0b0b;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* line 8 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+header {
+  font-family: 'Raleway';
+  padding: 50px 10px;
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #e51c1c;
+  border-bottom: 1px solid #a11212;
+  text-shadow: 0px -1px 0px #a11212;
+}
+
+/* line 19 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+/* line 24 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/clearfix.styl */
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+
+/* line 28 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/clearfix.styl */
+.container:after {
+  clear: both;
+}
+
+/* line 24 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+.main-content {
+  float: left;
+  padding-top: 60px;
+  width: 100%;
+}
+
+/* line 29 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+.sidebar {
+  float: left;
+  width: 300px;
+}
+
+/* line 32 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+.sidebar .widget {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #e51c1c;
+  margin-left: 20px;
+  background-color: #f9f9f9;
+  -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.8), 0px 3px 0px -2px rgba(0,0,0,0.1);
+  box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.8), 0px 3px 0px -2px rgba(0,0,0,0.1);
+}
+
+/* line 39 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+iframe {
+  margin-bottom: 40px;
+}
+
+/* line 42 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+footer {
+  width: 1000px;
+  margin: 0 auto 30px;
+  border-top: 1px dotted #e51c1c;
+  padding-top: 15px;
+  clear: both;
+  font-size: 0.8em;
+  zoom: 1;
+}
+
+/* line 24 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/clearfix.styl */
+footer:before,
+footer:after {
+  content: "";
+  display: table;
+}
+
+/* line 28 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/clearfix.styl */
+footer:after {
+  clear: both;
+}
+
+/* line 50 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+footer .footer-nav {
+  float: left;
+}
+
+/* line 52 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+footer .footer-nav a {
+  padding: 2px 5px;
+  margin: 0 2px;
+  font-weight: normal;
+}
+
+/* line 59 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+footer a.node-logo {
+  float: right;
+  background: url("data:image/png;base64,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");
+  display: block;
+  width: 93px;
+  height: 25px;
+  padding: 0;
+  margin: 0 5px 0 0;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  -webkit-transition: opacity 300ms ease;
+  -moz-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+
+/* line 69 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+footer a.node-logo:hover {
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+
+/* line 71 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+.work-row {
+  margin-bottom: 40px;
+  zoom: 1;
+}
+
+/* line 24 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/clearfix.styl */
+.work-row:before,
+.work-row:after {
+  content: "";
+  display: table;
+}
+
+/* line 28 : /Users/ollie/Projects/ollierogers.co.uk-node/node_modules/nib/lib/nib/clearfix.styl */
+.work-row:after {
+  clear: both;
+}
+
+/* line 74 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+.work-row .work-link {
+  width: 50%;
+  line-height: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 0 20px 0 0;
+  text-decoration: none;
+  color: #5c0b0b;
+}
+
+/* line 83 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+.work-row .work-link + .work-link {
+  padding: 0 0 0 20px;
+}
+
+/* line 85 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+.work-row .work-link img {
+  width: 100%;
+}
+
+/* line 87 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+.work-row .work-link h2 {
+  text-decoration: none;
+  line-height: 1;
+  padding: 0 0 10px 0;
+  font-size: 24px;
+}
+
+/* line 92 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/layout.styl */
+
+/* line 92 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/banner.styl */
+
+/* line 1 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/banner.styl */
+#banner {
+  margin: 0;
+  padding: 0;
+  background: center center no-repeat #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 9 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/banner.styl */
+#banner #banner-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: url("/img/mugshot.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+
+/* line 17 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/banner.styl */
+#banner .container {
+  height: 350px;
+  position: relative;
+}
+
+/* line 20 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/banner.styl */
+#banner .message {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 50px;
+  font-family: 'Raleway';
+  font-weight: 100;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+/* line 31 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/banner.styl */
+#banner .message .name {
+  font-size: 1.4em;
+}
+
+/* line 33 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/banner.styl */
+#banner .message .job {
+  font-size: 0.8em;
+  padding-top: 0.4em;
+}
+
+/* line 36 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/banner.styl */
+#banner .message button {
+  margin-top: 40px;
+  padding: 0 30px;
+}
+
+/* line 39 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/banner.styl */
+
+/* line 3 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+
+/* line 3 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+input,
+button {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 6 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+
+/* line 7 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/* line 9 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+input,
+textarea {
+  font-size: 16px;
+  font-family: 'Raleway';
+  background: #fff;
+  border: 3px solid #fff;
+  padding: 0 15px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  transition: border 500ms ease;
+  color: #000;
+}
+
+/* line 20 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+/* line 22 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+input {
+  height: 40px;
+  line-height: 40px;
+}
+
+/* line 25 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+textarea {
+  line-height: 20px;
+  min-height: 200px;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+/* line 30 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+button {
+  position: relative;
+  height: 56px;
+  line-height: 50px;
+  background-color: #e51c1c;
+  color: #fff;
+  border: 3px solid #d01818;
+  padding: 0;
+  margin: 20px 0 0 0;
+  font-size: 24px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* line 42 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+button:hover {
+  background-color: #ea4949;
+}
+
+/* line 44 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+button .btn-text {
+  padding: 0 20px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+/* line 47 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+button .btn-processing {
+  -webkit-transition: -webkit-transform 500ms ease;
+  -moz-transition: -moz-transform 500ms ease;
+  transition: transform 500ms ease;
+  float: left;
+  padding-left: 15px;
+}
+
+/* line 51 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+button .btn-msg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+}
+
+/* line 59 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.spinner {
+  -webkit-transition: right 500ms ease;
+  -moz-transition: right 500ms ease;
+  transition: right 500ms ease;
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+  background: #fff;
+  position: absolute;
+  top: 10px;
+  right: -40px;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-mask-image: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%7C%00%00%00%7C%08%06%00%00%00%AB%1E%D4%BE%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%0A%DEIDATx%DA%EC%5DOh%16G%14%9F%88%06Q%92*%82hi%20z%D0%96((%1Ej%BC%A8%08%D6C%B5J%834%5E%8C%18%E91Is%B3B%F4%D0%9E%1A%A3%A7%96j1'%05%A9(%C6%83%0Ab%EA%C1%A4%D0%A0P%85%D6%83%11R%AA%94%06%A3%A2%88%1E%D2%F7%92%17%FA%E5s%FF%CC%9B%9D%D9%9D%DD%7D%0F%86%FD%F8%F6%DF%EC%FC%F6%FD%F9%CD%BC%9D%A9%99%9C%9CT%22%E5%919%D2%04%02%B8%88%00.%22%80%8B%08%E0%22%02%B8%88%00.%92%A9%20%0F%8F*%05z%CEF(%17'g%CB(%94%CER%E1Y%06%C0%E19%D6Ay%3A%19.g%04%F0%82%00%0E%CF%B0(%06%EC%199*%80%17%03%F0%CEI%3DyZ%06%C0%CB%10%B4%7D%A6y%1CZ%82-%12%A5%8B%14J%E6%FA%16%5C%C1fw%C5_%83555%8392%A7%0B%60%B3%02%CA%7B%F4%D73(O%E0%19%C6%05%F0%AA%C0%0A6g%AA%C0F%E9%81%7D%08%F8%01h%B4G%9E%83%BD%1A6%AB%AA%FE%5E%02e%25%EC%1B%83%FA%DF%15%93%FE%BF%5C%0C%00%7BF%D0%AF%DE%A4%97%C2W%B0W%06%80%5D)%0DpL%93%00%3E%DDXm%04j%944B%E9%F3%D8%8C%AF%D28t%25%1D%5Bz%0D%D7%8D%A2%DB%C8%C7%FB%26%08%F6%3C%CDc%97%09%E0%F1%DA%5D)%7D%9Ei7%FA%E8%06%C6)%F3%04p%A5%268%2F%074%F2n%8F0_-%3C%9C%2F%DC%E8%B5%CF%13%EDn%A0(%9C%23%CF%04p%A5N2%8Fo%CC%BA%DF%1B%EE%3FO3P%AB%94W%40%CD%9E%94%1Ep%EAX%19d%9E%D6%911MC%1A%C6%8D%B8%85%87WH%17%F3%F8EY%99%F6%8A%DE4%8E%8C%FB%D2%DB%E6%05%E0%D4%0B%D5%CF%3C-%2B%9A%D6d%10m%DF%F5D%B1%BC%1A%3C%E9bF%EC%A9%07pD%C3%B8%5C%FA!%BC%D0%AF%04%F0w%B5%7C%C2%20%80K%9B%A6%ADa%1E%FF%16%CA%03%A1e%E1%A0c%F4%FD%88%AB%E5i%04pD%C3%EA%99%A7%3D%80gz%2B%80%DB%0D%E0%1A%A1t%3A%06%7B%1E%F9n.%0D%7B%E8%5B%E3z%0784%D2%25C%9A%D6%18%B2%8F%13%17LD%D0%B0%DC%06j%BEk%B8)M%EB%09%D9%F7%8B%E65%1E%05%8DY3F%C3*%C5%AB%A4%87Y%0A%15%97%A8%08%15%D71y%A8%5D%BB%A9%E1%A7%DEn%D2%D4%24f%B4%8Fi%AA'%E0%9E%8B%03%AE%83u%BAC%A6%3F%F2%25%83%F3O%84%F8n.%FD%BB%91%242%87%7B%BEO%01%E2L%D7%ED8%BD%90%0F4%CEu%0Bx%040%18%7C%1D0MQ%22%A0F%2B%5E%22%1DY%11%94%19C%7C%FDf%C4%B5%FA%E1%BC%03!%F5X%CD%D4p%0C%D4%FEL%40%FB6AY%1Er%C8c(%D7%E0%FAoL%01%9F%93P%0B%CFDh!j%14f%AA%DC%8C%F0%AFq4%ED%98%A5%B8%00M5%F6%8E%F5W%B1%00%7C%19%F7%84%81m%20%18%91%3F4h%C7Z%CA%98%FD%3C%02lE%FB%B6db%D2%A9%827%19%F7Bsy%8C%80%E44%C6%A8%869%0E5%E9%16%22t%A4b%9Bu%035%A8%C3%18%F3%FA%1B%60%B3%16J-%E3%B4%0Ba1%82K%0D%DF%CF%3C%1E-%81%C9%B7%5C%BA%DAwR9%10h%D8%E7%B0y%AEq%E8s%0E%D8%F4%AD%5B%2B%FC%DC%C0%04%5Bi*%80u%C0Mn%BA%88%3AJ%EE%E8%26%FDS%0C%D0%AFA%81N8%0Cn%EF%90%B9%8E2%E5w4%81%AE%83%B2%13~n%87RW%16Z%B6%8E%FC%FBE%1D%FFN%3E6%CC%9F%23%1B%D8%CAu%15%06Z~%0BJ%90%06%E3%7F%B7%E8%988%3F%DD%0C%3F%5Bc%FC%B4%9F%B4%CC%806E%09%82y%22%0E4%8A%DC%B7%D0%0B%83%C1%D7%60%DA%F9%EA%D4%EBV_a%C6%DFj%9C%B3%D6%D0t%87%C9%F5%B0%E7vF%CBH3G-%B6%E5%04q%E1~U%10!%3E%BD%D9%B2%E9%C6%B1%F5%0B%A9%D32z%C3%8EY%7C%90%A9%AFO%C8%BF%AF%2B%00%D8h%89%3E%B5%0C6%F2%EF%EB%99%98%F4%8A%07C%B3%DE%C3%EC%20%D1%D1%F6%F5%BE%7F%5E%14C%B56X%BE%2C%F6%B2%DD%8E%EAtq%DE%F1B%2F%04F%C7%EB%15%3Fc%25N%DB%7Br%0Av%ADe%B0%1F%13%EF%1E%8C%03%3B%15%0D%0F0c%3DI%7B%83*d%B1%CB%E8%DB%11%E0%8DD%B9%92%CA%0B(C%5C%2B%E7%5C%C3%AB93%94%AD%D4Yb%C3%1C%E7%D1%97%2FIx%3Ej%F1%08%B4%E39%17.%CD%09%0F%A7H%7B%3D%05u%13%AA%5C%92%C4%EC%A2%9F%3E%0B%ED7%E2%1D%0Fg%9A8%E4%EC%26%B9gy4%E9u%D4%B9%C2%F5%D3%B7m%8C%A1%A7j%D2%C3%E8%1B%94%3D%F0%13M%3D'%0B%A4%3Fo%60%D3%F3%BE%60%B83%3C%16%DD%E0%40Z%09%13%CE5%3C%E0%0Dl%23%8D_T%60Z%86%91%FA%CE%08%7F%8Ef%FFw%2C6%22o%8E%86%A7%0E8U%0A%C1%EE%0C%A1%5Eh%05%0E%F82EFB%D0%D7%AA%D9C%9FoH%FBG%C8%12%B8%B8%AF%7F%80W%F9w%A4p%8D%F4%D7%A5%BC%03%1D%E1%D7k%D30%DB%5E%03.%92%3E%E02O%5B%C9D%00%17%C0E%8A%2C%EC%89%F9(k%C3%86%60%F2%C0%FD%92%F9%D7%F9j%BA%BB%18%83%D4%F9%96.%FB%87%9AN%9E%7Cm%95%87%C3q%DD%B0iW%FC%0F%EA%22A%87%D2%0B%F78%5D%02%B0%F13%E3%2F%94%DDa%E4%19A%B0%B1%A3%EA%89%95(%9D%D2%99%F6%3Al%8F%F3p%9F%AE%82kv%A7E%AD%0E%03%FD%07%153v1G%A3%B2%ED%8E%C1F%D9%0B%F7%D9Q%60%05%DF%E1%18lE%D7%8FmC%9D%A0%AD%3D%A5Fi%2F0%E0%1F%FAr%1F%1D%C0%1BR%AAls%81%01%9F%EFKE%84%96%09%0F%CFL%C6%0A%DC%CEiM%C87a%03%F0%AB)Uv%A8%C0%80%0F%A6t%9F%E1%C4%3C%9C%7C%F8u%CB%FC%3B%88%8F%7F%1C%F7%B9N%CE%A9%19f%FC%B8%CC%D1%9B%9A%84!%F1%E0%09%7D%11%D9%A2%F4%BE%A045%E5-E%06%9B%DA%F1%12Y%CB%D7%96%2F%8D%D7%1B%D4%9Dq%83%D3%D3VO%7C%DC%16_%C6%99%85%AFa%23%14%1D%EC%00m_f%2Br%AF%CE%0A%92%F1%F0%92%89%8C%87%8B%08%E0%02%B8Hi%C4%97%85%EA%1A*%18A%D1%7Cj%E5%3Co%FF%AA%E9i%BD%C6K%0785%C4W%14%F5%D7%D3%7F%18%AD%E3%D8%F8%A9%BCG%EE%F4%7C%FBU%C0X%04%EC%BB%A2%12N%DEg%1C%D5g%F0!%02%82%7BHE'S%DC%CF37%A7%09%F6%8E%A8%E8e2%10l%CC%03%18%B2%7Co%7F%00%87%7B%ED%25%AD%D6%19%81C~~0%A7%80%B7)%FD%D1%BF1%02%FEAa%00%A7%3C%B8n%C5%1F%02%DD%987%BFN%93%F1%9A%AC%D4p%97%80%1Fw%09%F8%5C%C7%0F%3F%E3%A7M3f%9AU%FEF%D1%3E0%3C%0F%03%BBu%AE%FD%FB%5C%87%60%DBHzlP%E5%13%9C%08%A8%19%DAo%C0%B6%7Fw%028%E5%A6%1D%B5%04V%1E%D3%98%FF%B2p%0D%0C%FAp%D5%26%9CYy%C0%96%7F%B7%EA%C3i%7D%ECc%CAn%AA%D2Gy%8C%D4%99A%9B%8E%0C%11%F0%E3%1A%F7%8E%DC%3F%C7%C2%C3%D5S%1A%F3u%CB%0Fy%3C%C7%5C%7C%80h%97-%C1v%3D%02%ED%BC-S%0D%A7%A0%CCErD%EE%F3%D4%A3%3A%5E%12%0A%06t%E73%A1ep.%82%DDd%F1a0%22%EFr%11%ACd%08%7C3%B1%94%05%16%2F%7B%D8t%BE%F4%24s%AD%E2%83%FCl%E9%01%B4%3F9%A2%9E%BA%99%97%EC~%DAf%1F%EE%BF%14%FB%07%A0%2CT%D3s%CD%E2%B4%1D%2F5%B8%F96%8A%C0%9Dj%B9K%1E%BE%C9R%E5O%13%D8q%D3O%07rz%F8%FF%3C%F9%FB1%C7%40%23%C0%1D%04v%F5%3E%9CS%ED%5C%84%D2%A0%3F%1F%80%E3nS%FD%93%E6%B6%19%BB%89%2CG%CB%86%C8%7C%8Fi4v%13Y%93%A0Xa*%ED%0A%8Eiq%F55*%81%FD%AD%0A_U%B8%155%1F%EE%7F2%C6Z%A2%19%FE%1E%8E%C5Es%DAT%F2I%FC%D8%92%C5x%F8L%D2b%0BC%2B%FBb%02%C3z%E5v%E1%D9%5D*~%09%E9m4%2Fz%7C%A4%0C%BC%1A%CAa%0CN%0D%A3%F9%F1%2C%00%BFm%E0%A7%D1%F4n%E4%04e4%E0%A2%13%186%91%25p%05%B8%8Et%B0(RM%CD%0D%D8%7C%8D%3E%D9q%DB'%07%9C%40%D3%FDH%01%DFd%CC%3B%EF%E5r%7C%C5%9B%93%7DG%CC%F5p5%E2%B3P~%A3%82%CBp%1C%A5Y%96%A2%82%B4%85%9A%F7_%0A%C7%EFb%B6%E3%2B%0A%C0P%E3uz%D4%86%92%F4%BC%255%E9%5D*%FA%8B%11%DC%B7%1D9%B5a4%7D%C8%16%C7G%60a%F3%9D%9A%BD%E8%5C%1DE%CE%97%C9%AF%DA%90V%F2%F9%5C%05%1A'%85%E8%8D0%D97%92%AE%18ak)J4%BB%9FT%D2%25%8C%BE%93%F0i%8A%CA%87%B9%2F%60%10%5D%A1%E5%A2%BAc%CE%C5%F9N%F7%05M%98%87Q8C%CBQ.'%9D%D5%82V%85%98%89%C6%D1%CF%DF%B5%D1%B5%EAm%5E%3A%D4%EB'%C5%FF%E8!p%FC%1CM%B7%D2%5B%8A%A27%88%5E%C1%F9%1D%C4%A39%D2%0E%D7%FA'%83v%F3.J%D7%ED%9D%E2%82%7D%3C%04%ECUJ%7F%DD%91%B0%95%0C%F0%25x%C9%ACO%A7%8Fm%EBk%9A2w%F1%1C%8C%0FN%85%EC%E3%2C2S%17b%E5PS%2F3%EB%B4%06%5E%B6%8D%02x%BCv%B7%2B~%FF%7CO%0A%5D%AC%088%D7D%B7%0B%E0%F14%AC%9By%DA%FD%A8%D1%23%5BB%FD%E5%E7%98%A7-%A5%80Q%00%0F%91n%03%1A%96%DA%EAG%D4Qr%8F%DBicB%D3%0A%0F8%D10%AE%09%BC%9A%C1P*W%CB%17%FAd%DA%7D%D2p%93%BE%F0%A3iW%12%5E0%5C%C9%80%DB%15%8A%FD%EC%2B%04%F0%D94%8C%9B%1Eu%3C%C3%9Cu%13%9AvH%007%D7%EE%B1%08%1A%96%86%96%9B%D2%B4%B5%A5%07%9C%D2%9A%1B%0C%B4%3B%EB%04G%13%9A%B6S4%9C%CF%B9%87%D2%A0a%9A4%8D%DB_%BER%00%E7K%AF%2F%15%01%D0%87%0DhZ%E9%01%7F%C68%F6%BC%87%19%AD%9CX%E2%A1%00%3E%3Du%97%8ELe%CC%F8%A61%F0%02%8E2h%DA%AF%A5%07%9C%A8%95%8E%2F%EC%F5%F8%D3%E1%D3%1A4%ED%1E%F5%D4%89%0F%87%86%C0%EE%D1%AB1Q%B9%B7%CBdP%00%87)J%A3!%87%A0%AF%FF%C6%87%BA%CE%F5%A8%D1%0EV%8C%83Wg%CEx%FF%8D8%99%F6%0E%1A%12%AD%ECU%1B%A6%7DJ%00%7F%B7%D10%20%CB%F5gF%14%B9%0F%FBZ%3F%99%A7%ADdRx%C0A%E3F%D4%F4%3A%DD%3A2(%80%17Ct%864%F1%A5%B8%22%80%17C%CB%7F%8C%01%13%C1%FE%D2%D5%9A%DE%5E%B5E%99%A6%CF%A6t%A3%7DP%96W%99q%A4%7D%7F%17%E4%19%93%01.%22%26%5DD%00%17%11%C0E%04p%11%01%5CD%00%17%11%C0E%AC%C9%7F%02%0C%00%D2%CD%DF%E4%CF%CD%84%C8%00%00%00%00IEND%AEB%60%82");
+  -webkit-mask-size: 30px 30px;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  mask-image: url("data:image/png,%89PNG%0D%0A%1A%0A%00%00%00%0DIHDR%00%00%00%7C%00%00%00%7C%08%06%00%00%00%AB%1E%D4%BE%00%00%00%19tEXtSoftware%00Adobe%20ImageReadyq%C9e%3C%00%00%0A%DEIDATx%DA%EC%5DOh%16G%14%9F%88%06Q%92*%82hi%20z%D0%96((%1Ej%BC%A8%08%D6C%B5J%834%5E%8C%18%E91Is%B3B%F4%D0%9E%1A%A3%A7%96j1'%05%A9(%C6%83%0Ab%EA%C1%A4%D0%A0P%85%D6%83%11R%AA%94%06%A3%A2%88%1E%D2%F7%92%17%FA%E5s%FF%CC%9B%9D%D9%9D%DD%7D%0F%86%FD%F8%F6%DF%EC%FC%F6%FD%F9%CD%BC%9D%A9%99%9C%9CT%22%E5%919%D2%04%02%B8%88%00.%22%80%8B%08%E0%22%02%B8%88%00.%92%A9%20%0F%8F*%05z%CEF(%17'g%CB(%94%CER%E1Y%06%C0%E19%D6Ay%3A%19.g%04%F0%82%00%0E%CF%B0(%06%EC%199*%80%17%03%F0%CEI%3DyZ%06%C0%CB%10%B4%7D%A6y%1CZ%82-%12%A5%8B%14J%E6%FA%16%5C%C1fw%C5_%83555%8392%A7%0B%60%B3%02%CA%7B%F4%D73(O%E0%19%C6%05%F0%AA%C0%0A6g%AA%C0F%E9%81%7D%08%F8%01h%B4G%9E%83%BD%1A6%AB%AA%FE%5E%02e%25%EC%1B%83%FA%DF%15%93%FE%BF%5C%0C%00%7BF%D0%AF%DE%A4%97%C2W%B0W%06%80%5D)%0DpL%93%00%3E%DDXm%04j%944B%E9%F3%D8%8C%AF%D28t%25%1D%5Bz%0D%D7%8D%A2%DB%C8%C7%FB%26%08%F6%3C%CDc%97%09%E0%F1%DA%5D)%7D%9Ei7%FA%E8%06%C6)%F3%04p%A5%268%2F%074%F2n%8F0_-%3C%9C%2F%DC%E8%B5%CF%13%EDn%A0(%9C%23%CF%04p%A5N2%8Fo%CC%BA%DF%1B%EE%3FO3P%AB%94W%40%CD%9E%94%1Ep%EAX%19d%9E%D6%911MC%1A%C6%8D%B8%85%87WH%17%F3%F8EY%99%F6%8A%DE4%8E%8C%FB%D2%DB%E6%05%E0%D4%0B%D5%CF%3C-%2B%9A%D6d%10m%DF%F5D%B1%BC%1A%3C%E9bF%EC%A9%07pD%C3%B8%5C%FA!%BC%D0%AF%04%F0w%B5%7C%C2%20%80K%9B%A6%ADa%1E%FF%16%CA%03%A1e%E1%A0c%F4%FD%88%AB%E5i%04pD%C3%EA%99%A7%3D%80gz%2B%80%DB%0D%E0%1A%A1t%3A%06%7B%1E%F9n.%0D%7B%E8%5B%E3z%0784%D2%25C%9A%D6%18%B2%8F%13%17LD%D0%B0%DC%06j%BEk%B8)M%EB%09%D9%F7%8B%E65%1E%05%8DY3F%C3*%C5%AB%A4%87Y%0A%15%97%A8%08%15%D71y%A8%5D%BB%A9%E1%A7%DEn%D2%D4%24f%B4%8Fi%AA'%E0%9E%8B%03%AE%83u%BAC%A6%3F%F2%25%83%F3O%84%F8n.%FD%BB%91%242%87%7B%BEO%01%E2L%D7%ED8%BD%90%0F4%CEu%0Bx%040%18%7C%1D0MQ%22%A0F%2B%5E%22%1DY%11%94%19C%7C%FDf%C4%B5%FA%E1%BC%03!%F5X%CD%D4p%0C%D4%FEL%40%FB6AY%1Er%C8c(%D7%E0%FAoL%01%9F%93P%0B%CFDh!j%14f%AA%DC%8C%F0%AFq4%ED%98%A5%B8%00M5%F6%8E%F5W%B1%00%7C%19%F7%84%81m%20%18%91%3F4h%C7Z%CA%98%FD%3C%02lE%FB%B6db%D2%A9%827%19%F7Bsy%8C%80%E44%C6%A8%869%0E5%E9%16%22t%A4b%9Bu%035%A8%C3%18%F3%FA%1B%60%B3%16J-%E3%B4%0Ba1%82K%0D%DF%CF%3C%1E-%81%C9%B7%5C%BA%DAwR9%10h%D8%E7%B0y%AEq%E8s%0E%D8%F4%AD%5B%2B%FC%DC%C0%04%5Bi*%80u%C0Mn%BA%88%3AJ%EE%E8%26%FDS%0C%D0%AFA%81N8%0Cn%EF%90%B9%8E2%E5w4%81%AE%83%B2%13~n%87RW%16Z%B6%8E%FC%FBE%1D%FFN%3E6%CC%9F%23%1B%D8%CAu%15%06Z~%0BJ%90%06%E3%7F%B7%E8%988%3F%DD%0C%3F%5Bc%FC%B4%9F%B4%CC%806E%09%82y%22%0E4%8A%DC%B7%D0%0B%83%C1%D7%60%DA%F9%EA%D4%EBV_a%C6%DFj%9C%B3%D6%D0t%87%C9%F5%B0%E7vF%CBH3G-%B6%E5%04q%E1~U%10!%3E%BD%D9%B2%E9%C6%B1%F5%0B%A9%D32z%C3%8EY%7C%90%A9%AFO%C8%BF%AF%2B%00%D8h%89%3E%B5%0C6%F2%EF%EB%99%98%F4%8A%07C%B3%DE%C3%EC%20%D1%D1%F6%F5%BE%7F%5E%14C%B56X%BE%2C%F6%B2%DD%8E%EAtq%DE%F1B%2F%04F%C7%EB%15%3Fc%25N%DB%7Br%0Av%ADe%B0%1F%13%EF%1E%8C%03%3B%15%0D%0F0c%3DI%7B%83*d%B1%CB%E8%DB%11%E0%8DD%B9%92%CA%0B(C%5C%2B%E7%5C%C3%AB93%94%AD%D4Yb%C3%1C%E7%D1%97%2FIx%3Ej%F1%08%B4%E39%17.%CD%09%0F%A7H%7B%3D%05u%13%AA%5C%92%C4%EC%A2%9F%3E%0B%ED7%E2%1D%0Fg%9A8%E4%EC%26%B9gy4%E9u%D4%B9%C2%F5%D3%B7m%8C%A1%A7j%D2%C3%E8%1B%94%3D%F0%13M%3D'%0B%A4%3Fo%60%D3%F3%BE%60%B83%3C%16%DD%E0%40Z%09%13%CE5%3C%E0%0Dl%23%8D_T%60Z%86%91%FA%CE%08%7F%8Ef%FFw%2C6%22o%8E%86%A7%0E8U%0A%C1%EE%0C%A1%5Eh%05%0E%F82EFB%D0%D7%AA%D9C%9FoH%FBG%C8%12%B8%B8%AF%7F%80W%F9w%A4p%8D%F4%D7%A5%BC%03%1D%E1%D7k%D30%DB%5E%03.%92%3E%E02O%5B%C9D%00%17%C0E%8A%2C%EC%89%F9(k%C3%86%60%F2%C0%FD%92%F9%D7%F9j%BA%BB%18%83%D4%F9%96.%FB%87%9AN%9E%7Cm%95%87%C3q%DD%B0iW%FC%0F%EA%22A%87%D2%0B%F78%5D%02%B0%F13%E3%2F%94%DDa%E4%19A%B0%B1%A3%EA%89%95(%9D%D2%99%F6%3Al%8F%F3p%9F%AE%82kv%A7E%AD%0E%03%FD%07%153v1G%A3%B2%ED%8E%C1F%D9%0B%F7%D9Q%60%05%DF%E1%18lE%D7%8FmC%9D%A0%AD%3D%A5Fi%2F0%E0%1F%FAr%1F%1D%C0%1BR%AAls%81%01%9F%EFKE%84%96%09%0F%CFL%C6%0A%DC%CEiM%C87a%03%F0%AB)Uv%A8%C0%80%0F%A6t%9F%E1%C4%3C%9C%7C%F8u%CB%FC%3B%88%8F%7F%1C%F7%B9N%CE%A9%19f%FC%B8%CC%D1%9B%9A%84!%F1%E0%09%7D%11%D9%A2%F4%BE%A045%E5-E%06%9B%DA%F1%12Y%CB%D7%96%2F%8D%D7%1B%D4%9Dq%83%D3%D3VO%7C%DC%16_%C6%99%85%AFa%23%14%1D%EC%00m_f%2Br%AF%CE%0A%92%F1%F0%92%89%8C%87%8B%08%E0%02%B8Hi%C4%97%85%EA%1A*%18A%D1%7Cj%E5%3Co%FF%AA%E9i%BD%C6K%0785%C4W%14%F5%D7%D3%7F%18%AD%E3%D8%F8%A9%BCG%EE%F4%7C%FBU%C0X%04%EC%BB%A2%12N%DEg%1C%D5g%F0!%02%82%7BHE'S%DC%CF37%A7%09%F6%8E%A8%E8e2%10l%CC%03%18%B2%7Co%7F%00%87%7B%ED%25%AD%D6%19%81C~~0%A7%80%B7)%FD%D1%BF1%02%FEAa%00%A7%3C%B8n%C5%1F%02%DD%987%BFN%93%F1%9A%AC%D4p%97%80%1Fw%09%F8%5C%C7%0F%3F%E3%A7M3f%9AU%FEF%D1%3E0%3C%0F%03%BBu%AE%FD%FB%5C%87%60%DBHzlP%E5%13%9C%08%A8%19%DAo%C0%B6%7Fw%028%E5%A6%1D%B5%04V%1E%D3%98%FF%B2p%0D%0C%FAp%D5%26%9CYy%C0%96%7F%B7%EA%C3i%7D%ECc%CAn%AA%D2Gy%8C%D4%99A%9B%8E%0C%11%F0%E3%1A%F7%8E%DC%3F%C7%C2%C3%D5S%1A%F3u%CB%0Fy%3C%C7%5C%7C%80h%97-%C1v%3D%02%ED%BC-S%0D%A7%A0%CCErD%EE%F3%D4%A3%3A%5E%12%0A%06t%E73%A1ep.%82%DDd%F1a0%22%EFr%11%ACd%08%7C3%B1%94%05%16%2F%7B%D8t%BE%F4%24s%AD%E2%83%FCl%E9%01%B4%3F9%A2%9E%BA%99%97%EC~%DAf%1F%EE%BF%14%FB%07%A0%2CT%D3s%CD%E2%B4%1D%2F5%B8%F96%8A%C0%9Dj%B9K%1E%BE%C9R%E5O%13%D8q%D3O%07rz%F8%FF%3C%F9%FB1%C7%40%23%C0%1D%04v%F5%3E%9CS%ED%5C%84%D2%A0%3F%1F%80%E3nS%FD%93%E6%B6%19%BB%89%2CG%CB%86%C8%7C%8Fi4v%13Y%93%A0Xa*%ED%0A%8Eiq%F55*%81%FD%AD%0A_U%B8%155%1F%EE%7F2%C6Z%A2%19%FE%1E%8E%C5Es%DAT%F2I%FC%D8%92%C5x%F8L%D2b%0BC%2B%FBb%02%C3z%E5v%E1%D9%5D*~%09%E9m4%2Fz%7C%A4%0C%BC%1A%CAa%0CN%0D%A3%F9%F1%2C%00%BFm%E0%A7%D1%F4n%E4%04e4%E0%A2%13%186%91%25p%05%B8%8Et%B0(RM%CD%0D%D8%7C%8D%3E%D9q%DB'%07%9C%40%D3%FDH%01%DFd%CC%3B%EF%E5r%7C%C5%9B%93%7DG%CC%F5p5%E2%B3P~%A3%82%CBp%1C%A5Y%96%A2%82%B4%85%9A%F7_%0A%C7%EFb%B6%E3%2B%0A%C0P%E3uz%D4%86%92%F4%BC%255%E9%5D*%FA%8B%11%DC%B7%1D9%B5a4%7D%C8%16%C7G%60a%F3%9D%9A%BD%E8%5C%1DE%CE%97%C9%AF%DA%90V%F2%F9%5C%05%1A'%85%E8%8D0%D97%92%AE%18ak)J4%BB%9FT%D2%25%8C%BE%93%F0i%8A%CA%87%B9%2F%60%10%5D%A1%E5%A2%BAc%CE%C5%F9N%F7%05M%98%87Q8C%CBQ.'%9D%D5%82V%85%98%89%C6%D1%CF%DF%B5%D1%B5%EAm%5E%3A%D4%EB'%C5%FF%E8!p%FC%1CM%B7%D2%5B%8A%A27%88%5E%C1%F9%1D%C4%A39%D2%0E%D7%FA'%83v%F3.J%D7%ED%9D%E2%82%7D%3C%04%ECUJ%7F%DD%91%B0%95%0C%F0%25x%C9%ACO%A7%8Fm%EBk%9A2w%F1%1C%8C%0FN%85%EC%E3%2C2S%17b%E5PS%2F3%EB%B4%06%5E%B6%8D%02x%BCv%B7%2B~%FF%7CO%0A%5D%AC%088%D7D%B7%0B%E0%F14%AC%9By%DA%FD%A8%D1%23%5BB%FD%E5%E7%98%A7-%A5%80Q%00%0F%91n%03%1A%96%DA%EAG%D4Qr%8F%DBicB%D3%0A%0F8%D10%AE%09%BC%9A%C1P*W%CB%17%FAd%DA%7D%D2p%93%BE%F0%A3iW%12%5E0%5C%C9%80%DB%15%8A%FD%EC%2B%04%F0%D94%8C%9B%1Eu%3C%C3%9Cu%13%9AvH%007%D7%EE%B1%08%1A%96%86%96%9B%D2%B4%B5%A5%07%9C%D2%9A%1B%0C%B4%3B%EB%04G%13%9A%B6S4%9C%CF%B9%87%D2%A0a%9A4%8D%DB_%BER%00%E7K%AF%2F%15%01%D0%87%0DhZ%E9%01%7F%C68%F6%BC%87%19%AD%9CX%E2%A1%00%3E%3Du%97%8ELe%CC%F8%A61%F0%02%8E2h%DA%AF%A5%07%9C%A8%95%8E%2F%EC%F5%F8%D3%E1%D3%1A4%ED%1E%F5%D4%89%0F%87%86%C0%EE%D1%AB1Q%B9%B7%CBdP%00%87)J%A3!%87%A0%AF%FF%C6%87%BA%CE%F5%A8%D1%0EV%8C%83Wg%CEx%FF%8D8%99%F6%0E%1A%12%AD%ECU%1B%A6%7DJ%00%7F%B7%D10%20%CB%F5gF%14%B9%0F%FBZ%3F%99%A7%ADdRx%C0A%E3F%D4%F4%3A%DD%3A2(%80%17Ct%864%F1%A5%B8%22%80%17C%CB%7F%8C%01%13%C1%FE%D2%D5%9A%DE%5E%B5E%99%A6%CF%A6t%A3%7DP%96W%99q%A4%7D%7F%17%E4%19%93%01.%22%26%5DD%00%17%11%C0E%04p%11%01%5CD%00%17%11%C0E%AC%C9%7F%02%0C%00%D2%CD%DF%E4%CF%CD%84%C8%00%00%00%00IEND%AEB%60%82");
+  mask-size: 30px 30px;
+  -webkit-animation-name: rotate;
+  -moz-animation-name: rotate;
+  animation-name: rotate;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+/* line 82 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form {
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+/* line 86 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+
+/* line 87 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form.processing button {
+  background-color: #a1c88d;
+  border-color: #6aa24e;
+}
+
+/* line 90 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form.processing button .btn-text {
+  padding-right: 55px;
+  padding-left: 20px;
+}
+
+/* line 93 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form.processing button:hover {
+  background-color: #a1c88d;
+}
+
+/* line 95 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form.processing textarea,
+.form.processing input {
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  pointer-events: none;
+  border-color: #6aa24e;
+}
+
+/* line 99 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form.processing .spinner {
+  top: 10px;
+  right: 10px;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 103 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form.processing .btn-text {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/* line 105 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form.processing .btn-processing {
+  -webkit-transform: translate 0px -50px;
+  -moz-transform: translate 0px -50px;
+  transform: translate 0px -50px;
+  -webkit-transform: translate(0px, -50px);
+  -moz-transform: translate(0px, -50px);
+  transform: translate(0px, -50px);
+}
+
+/* line 110 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+
+/* line 111 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form.thanks button {
+  background-color: #7bb25f;
+  border-color: #4c7438;
+}
+
+/* line 114 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form.thanks .btn-text {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/* line 116 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form.thanks .btn-msg {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+/* line 119 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+.form button {
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+/* line 128 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+::-webkit-input-placeholder {
+  font-family: 'Raleway';
+  color: #c7c7c7;
+}
+
+/* line 132 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+:-moz-placeholder {
+  font-family: 'Raleway';
+  color: #c7c7c7;
+}
+
+/* line 136 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+::-moz-placeholder {
+  font-family: 'Raleway';
+  color: #c7c7c7;
+}
+
+/* line 140 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+:-ms-input-placeholder {
+  font-family: 'Raleway';
+  color: #c7c7c7;
+}
+
+/* line 143 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/forms.styl */
+
+/* line undefined : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/animations.styl */
+
+/* line 1 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/animations.styl */
+@-moz-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* line 1 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/animations.styl */
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* line 1 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/animations.styl */
+@-o-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* line 1 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/animations.styl */
+@-ms-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* line 1 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/animations.styl */
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* line 4 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/animations.styl */
+
+/* line 2 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+@media (max-width: 1040px) {
+
+/* line 3 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+  .container,
+  nav ul {
+    width: 100%;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+/* line 7 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+  footer {
+    width: 100%;
+    padding: 15px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+/* line 11 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+  #banner .message {
+    padding-right: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+
+/* line 17 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+
+/* line 18 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+  .work-row .work-link {
+    width: 100%;
+    padding: 0;
+  }
+
+/* line 21 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+  .work-row .work-link + .work-link {
+    padding: 0;
+  }
+}
+@media (max-width: 400px) {
+
+/* line 25 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+  nav {
+    height: auto;
+    padding-top: 10px;
+  }
+
+/* line 28 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+  nav ul {
+    height: auto;
+    padding: 0;
+  }
+
+/* line 31 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+  nav ul li {
+    float: none;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+
+/* line 36 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+  nav ul li a {
+    width: 100%;
+    float: none;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+/* line 43 : /Users/ollie/Projects/ollierogers.co.uk-node/public/stylesheets/responsive.styl */
+  nav ul li.logo {
+    margin: 0 auto 10px;
+  }
+}

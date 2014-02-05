@@ -1,0 +1,13 @@
+- var isdevmode = process.env.NODE_ENV  === 'development'
+
+if isdevmode 
+  script(type="text/javascript", src="/js/jquery-2.0.3.min.js")
+  script(type="text/javascript", src="/js/banner.js")
+  script(type="text/javascript", src="/js/jquery.unveil.js")  
+  script(type="text/javascript", src="/js/form.js")
+  script(type="text/javascript", src="/js/docready.js")
+
+else
+  script(type="text/javascript", src="/js/build.js")
+
+block extrajs  

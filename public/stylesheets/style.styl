@@ -1,0 +1,31 @@
+/*
+ * Import nib & add moz vendor prefixes
+ */
+vendor-prefixes ?= webkit moz official 
+@import 'nib'
+
+
+/*
+ * import stylus files
+ */
+@import "theme/red-grey"
+@import "variables"
+
+
+/*
+ * nib global reset
+ */
+global-reset()
+
+
+/*
+ * styles
+ */
+@import "images"
+@import "typography"
+@import "nav"
+@import "layout"
+@import "banner"
+@import "forms"
+@import "animations"
+@import "responsive"

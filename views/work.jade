@@ -1,0 +1,30 @@
+extend layout
+block banner 
+  include ./partials/banner-home
+
+block content
+  h1 Work
+  p 
+    | I’m a designer and front end developer based in Hove. By day I work with the good people at 
+    a(href="http://www.3ev.com", target="_blank") 3ev. 
+    | When I’m not designing applications or writing code theres a good chance you'll find me out on the water kitesurfing, surfing and generally trying to make the most of the UKs southern coastline. 
+  p 
+    | I built this website with 
+    a(href="http://nodejs.org/", target="_blank") node.js 
+    | and with the help of some open source tools. You can check out the source  
+    a(href="https://github.com/ollieRogers/ollierogers.co.uk-node", target="_blank") on github.
+  p Below are some recent projects I’ve been involved in. 
+  .work-row
+    a(href="http://3ev.com", target="_blank").work-link
+      h2 3ev.com
+      img.lazy(src="/img/loader.gif", data-src="/img/3ev.jpg")
+    a(href="http://lassco.co.uk", target="_blank").work-link
+      h2 lassco.co.uk
+      img.lazy(src="/img/loader.gif", data-src="/img/lassco.jpg")
+  .work-row  
+    a(href="http:///oliverstravels.com", target="_blank").work-link
+      h2 oliverstravels.com
+      img.lazy(src="/img/loader.gif", data-src="/img/ot.jpg")
+    a(href="http://rail-travel-experience.com/", target="_blank").work-link
+      h2 lufthansa micro site 
+      img.lazy(src="/img/loader.gif", data-src="/img/lsg.jpg")

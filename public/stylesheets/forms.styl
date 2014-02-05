@@ -1,0 +1,144 @@
+
+
+input, button 
+  margin 0
+  box-sizing border-box
+input, textarea, button
+  &:focus 
+    outline none
+input, textarea 
+  font-size 16px
+  font-family body-font
+  background input-bg
+  border 3px solid border-color 
+  padding 0 15px
+  width 100%
+  box-sizing border-box
+  margin-bottom 10px
+  transition(border, form-transition-speed, ease)
+  color secondary-color
+  &:focus
+    border-color secondary-color
+input 
+  height 40px
+  line-height 40px
+textarea 
+  line-height 20px
+  min-height 200px
+  margin 0
+  padding 10px 15px
+button
+  position relative
+  height 56px
+  line-height 50px
+  background-color main-color
+  color white
+  border 3px solid darken(main-color, 10%)
+  padding 0
+  margin 20px 0 0 0 
+  font-size 24px
+  cursor pointer
+  overflow hidden
+  &:hover
+    background-color lighten(main-color, 20%)
+  .btn-text 
+    padding 0 20px
+    transition(all, form-transition-speed, ease)
+  .btn-processing
+    transition(transform, form-transition-speed, ease)
+    float left
+    padding-left 15px
+  .btn-msg
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    opacity 0
+    transition(opacity, form-transition-speed, ease)
+.spinner 
+  transition(right, form-transition-speed, ease)
+  height 30px
+  width 30px
+  overflow hidden
+  background #fff
+  position absolute
+  top 10px
+  right -40px
+  opacity 0
+  -webkit-mask-image url(spinner-png)
+  -webkit-mask-size 30px 30px
+  -webkit-animation-name rotate
+  -webkit-animation-duration 1.5s
+  -webkit-animation-iteration-count infinite
+  -webkit-animation-timing-function linear
+  mask-image url(spinner-png)
+  mask-size 30px 30px
+  animation-name rotate
+  animation-duration 1.5s
+  animation-iteration-count infinite
+  animation-timing-function linear
+  
+.form
+  transition(opacity, 1s, ease);
+  padding 0
+  margin 0 0 20px 0  
+  &.processing
+    button
+      background-color lighten(ok-color, 50%)
+      border-color lighten(ok-color, 20%)
+      .btn-text
+        padding-right 55px
+        padding-left 20px
+      &:hover 
+        background-color lighten(ok-color, 50%)
+    textarea, input 
+      opacity 0.3
+      pointer-events none
+      border-color lighten(ok-color, 20%)
+    .spinner 
+      top 10px
+      right 10px
+      opacity 1
+    .btn-text
+      opacity 0
+    .btn-processing
+      transform( translate, 0px, -50px )
+      transform: translate(0px, -50px);
+
+
+  &.thanks
+    button
+      background-color lighten(ok-color, 30%)
+      border-color ok-color
+    .btn-text
+      opacity 0
+    .btn-msg
+      opacity 1
+
+  button
+    transition(all, form-transition-speed, ease)
+
+
+placeholder()
+  font-family body-font
+  color darken(bg-color, 20%)
+
+
+::-webkit-input-placeholder {
+   placeholder()
+}
+
+:-moz-placeholder { 
+   placeholder()  
+}
+
+::-moz-placeholder { 
+   placeholder()  
+}
+
+:-ms-input-placeholder {  
+   placeholder()  
+}
+
+

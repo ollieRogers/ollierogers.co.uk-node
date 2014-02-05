@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Ollie Rogers | #{title}
+    link( rel='stylesheet', href='/stylesheets/style.css' )
+  body
+      nav
+        include ./partials/nav
+      
+      block banner
+      
+      .container
+        .main-content
+          block content 
+      
+      footer
+        include ./partials/footer.jade
+
+      block contact 
+
+    include ./partials/javascript

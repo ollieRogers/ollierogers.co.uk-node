@@ -1,0 +1,12 @@
+ul.nav
+  li.logo
+  each name in [ "work", "contact", "lab" ]
+    if ( name=="work" )
+      li( class=(title === 'Designer & Front End Developer' ? 'active' : '') )
+        a( href='/' )= name
+    else if ( name=="lab" )
+      li( class=(title === 'experiments' ? 'active' : '') )
+        a( href='/experiments' )= name
+    else
+      li( class=(title === name ? 'active' : '') )
+        a( href='/'+name.toLowerCase() )= name

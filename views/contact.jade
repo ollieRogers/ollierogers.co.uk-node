@@ -1,0 +1,30 @@
+extend layout
+
+block content
+  h1 Contact 
+  p I’m not currently looking for work or taking on any contracts but if you would like to get in touch you can fill in the form here and I’ll get an email. You can also follow me on twitter 
+    a(href="https://twitter.com/ollie_rogers", target="_blank") @ollie_rogers.
+  form.form(action='/contact', name='contact', id='contact', method='post')
+    input(id='name', type='text', value='', placeholder='Name', name='name', required="required")
+    input(id='email', type='email', value='', placeholder='Email Address', name='email', required="required")
+    textarea(id='message', type='text', value='', placeholder='Message', name='message', required="required")
+    button(id="submit", type="submit") 
+      .btn-text Submit
+      .btn-processing Sending
+      .btn-msg Thanks
+      .spinner
+
+block sidebar
+  .widget
+    h1 Widget
+    p
+      | Vivamus hendrerit arcu sed erat molestie
+      | vehicula.
+
+block contact
+  .message
+      if(typeof msg !== 'undefined')
+        if(!!err)
+          div(class='msgbox err') #{msg}
+        else
+          div(class='msgbox success') #{msg}
