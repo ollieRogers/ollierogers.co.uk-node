@@ -44,6 +44,7 @@ if(!isdevmode){
   new jscompressor.minify({
       type: 'uglifyjs',
       fileIn: [ 
+         './public/js/modernizr.min.js',
          './public/js/jquery-2.0.3.min.js', 
          './public/js/banner.js', 
          './public/js/jquery.unveil.js', 
