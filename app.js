@@ -105,12 +105,6 @@ app.get('/', function(req, res){
   });
 });
 
-app.get('/about', function(req, res){
-  res.render('about', {
-    title: 'about'
-  });
-});
-
 app.get('/contact', function(req, res){
   res.render('contact', {
     title: 'contact'
@@ -128,7 +122,11 @@ app.post('/contact', function (req, res) {
   mailer(req, res);
 });
 
-
+app.get('/*', function(req, res){
+  res.render('work', {
+    title: '404'
+  });
+});
 
 
 
