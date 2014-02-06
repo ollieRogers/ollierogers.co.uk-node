@@ -13,18 +13,5 @@ block content
       .btn-processing Sending
       .btn-msg Thanks
       .spinner
+        include ./partials/spinner
 
-block sidebar
-  .widget
-    h1 Widget
-    p
-      | Vivamus hendrerit arcu sed erat molestie
-      | vehicula.
-
-block contact
-  .message
-      if(typeof msg !== 'undefined')
-        if(!!err)
-          div(class='msgbox err') #{msg}
-        else
-          div(class='msgbox success') #{msg}

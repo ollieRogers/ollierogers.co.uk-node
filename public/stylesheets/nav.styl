@@ -28,13 +28,12 @@ nav
         &:hover
           color lighten(menu-link-color,20%)
       &.logo 
-        -webkit-mask-image url(logo-png)
-        -webkit-mask-size 43px 43px 
         width 43px
         height 43px
         margin-top 18px
         margin-right 20px
-        background menu-link-color
+        .svg-logo 
+          fill menu-link-color
       &.active 
         a 
           cursor default
