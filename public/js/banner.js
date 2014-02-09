@@ -31,20 +31,20 @@
 */
 
 ;(function ($) {
-  $.fn.blurScroll = function (options) {
+  $.fn.blurScroll = function ( options ) {
       
   var options = {
       blurElement: '#blur',          // default blur ID
       opacityElement: '#banner-img', // default bg image ID
-      blurRatio: 14,   // set how quickly the element blurs - lower numbers = faster blurring
-      captionSpeed: 4  // set the default speed the text moves at
+      blurRatio: 10,   // set how quickly the element blurs - lower numbers = faster blurring
+      captionSpeed: 2  // set the default speed the text moves at
                        // higher number = slower movement
                        // minus numbers = downwards movement 
   },  
     $banner = this,                               // banner element
     $filter = $banner.find(options.blurElement),  // element to blur
     $opacityElem = $banner.find(options.opacityElement),
-    bannerStartHeight = $banner.height(),         // initial height of banner
+    bannerStartHeight = $banner.height() + 85,         // initial height of banner
     scrolling,      // true || false depending on if window is currently scrolling
     blur,           // how much blur to apply
     filterMove,     // current position of banner elements
@@ -64,19 +64,31 @@
     };
 
 
+
+   /*
+    *  show banner after page loaded
+    */
+    window.onload = function(){
+
+      $opacityElem.removeClass('hidden');
+      
+    }
+
+
    /*
     *  check if user is scrolling, 
     *  if they are perform the blur
     */  
     setInterval(function(){
       
-      if(scrolling){
+      if( scrolling ){
 
         topDist = document.body.scrollTop;
-        opacity = (bannerHeight / bannerStartHeight) / 2
+        textOpacity = bannerHeight / bannerStartHeight;
+        opacity = textOpacity / 2;
 
-        offsetBlur(topDist);
-        setOpacity(opacity) 
+        offsetBlur( topDist, textOpacity );
+        setOpacity( opacity ) 
         
       } 
       
@@ -92,32 +104,24 @@
     }
 
    /*
-    *  calculate the blur and the top offset
+    *  calculate the text fade and the top offset
     */
-    offsetBlur = function(topDist){
+    offsetBlur = function(topDist, textOpacity){
       
       bannerHeight = bannerStartHeight - topDist,
       blur = topDist/options.blurRatio,
-      filterMove = 0 - ( topDist / options.captionSpeed);
+      filterMove =  ( topDist / options.captionSpeed );
+
+      $opacityElem.removeClass('fade-in')
 
       if (bannerHeight > 0){
 
-        $banner.css({
-          height: bannerHeight + 'px' 
-        });
-
         $filter.css({
-          "-webkit-filter": "blur(" + blur + "px)",
+          opacity: textOpacity,
           "-webkit-transform": 'translateY('+ filterMove +'px)'
         });
 
-      } else {
-
-         $banner.css({
-            height: '0px' 
-         });
-
-      }
+      } 
     }
   }
 
