@@ -6,29 +6,7 @@
 // https://github.com/ollieRogers
 // @ollie_rogers
 // ------------------------------
-// MIT License
-/*
 
-  Usage 
-
-  $('#yourBanner').blurScroll({
-    blurElement: '#yourElement',
-    opacityElement: '#banner-img', 
-    blurRatio: 20, 
-    captionSpeed: 4
-  })
-  this plugin requires some css
-  
-    #banner {
-      position: relative;
-      height: 250px;
-      overflow: hidden;
-      }
-    #blur {
-      position:absolute;
-      top: 0;
-    }
-*/
 
 ;(function ($) {
   $.fn.blurScroll = function ( options ) {
@@ -45,8 +23,6 @@
     $filter = $banner.find(options.blurElement),  // element to blur
     $opacityElem = $banner.find(options.opacityElement),
     bannerStartHeight = $banner.height() + 85,         // initial height of banner
-    scrolling,      // true || false depending on if window is currently scrolling
-    blur,           // how much blur to apply
     filterMove,     // current position of banner elements
     topDist,        // distance scrolled 
     bannerHeight,   // current banner height
@@ -59,7 +35,12 @@
     */
     window.onscroll = function(){
     
-      scrolling = true;
+        topDist = document.body.scrollTop;
+        textOpacity = bannerHeight / bannerStartHeight;
+        opacity = textOpacity / 2;
+
+        offsetBlur( topDist, textOpacity );
+        setOpacity( opacity ) 
         
     };
 
@@ -74,29 +55,9 @@
       
     }
 
-
    /*
-    *  check if user is scrolling, 
-    *  if they are perform the blur
-    */  
-    setInterval(function(){
-      
-      if( scrolling ){
-
-        topDist = document.body.scrollTop;
-        textOpacity = bannerHeight / bannerStartHeight;
-        opacity = textOpacity / 2;
-
-        offsetBlur( topDist, textOpacity );
-        setOpacity( opacity ) 
-        
-      } 
-      
-      scrolling = false; // reset scrolling state 
-      
-    }, 10);
-
-
+    * calculate banner opacity
+    */
     setOpacity = function(opacity){
       $opacityElem.css({
         opacity: opacity
@@ -109,7 +70,6 @@
     offsetBlur = function(topDist, textOpacity){
       
       bannerHeight = bannerStartHeight - topDist,
-      blur = topDist/options.blurRatio,
       filterMove =  ( topDist / options.captionSpeed );
 
       $opacityElem.removeClass('fade-in')
