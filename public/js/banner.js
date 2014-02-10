@@ -1,5 +1,5 @@
-// blurScroll.js
-// collapsing banner with blurry text plugin for jQuery
+// fadeScroll.js
+// collapsing banner with fading text plugin for jQuery
 // Ollie Rogers 2014
 // ------------------------------
 // ollierogers.co.uk
@@ -12,15 +12,14 @@
   $.fn.blurScroll = function ( options ) {
       
   var options = {
-      blurElement: '#blur',          // default blur ID
+      blurElement: '#blur',          // default fade ID
       opacityElement: '#banner-img', // default bg image ID
-      blurRatio: 10,   // set how quickly the element blurs - lower numbers = faster blurring
       captionSpeed: 2  // set the default speed the text moves at
                        // higher number = slower movement
                        // minus numbers = downwards movement 
   },  
     $banner = this,                               // banner element
-    $filter = $banner.find(options.blurElement),  // element to blur
+    $filter = $banner.find(options.blurElement),  // element to fade
     $opacityElem = $banner.find(options.opacityElement),
     bannerStartHeight = $banner.height() + 85,         // initial height of banner
     filterMove,     // current position of banner elements
@@ -35,11 +34,11 @@
     */
     window.onscroll = function(){
     
-        topDist = document.body.scrollTop;
+        topDist = document.body.scrollTop || document.documentElement.scrollTop;
         textOpacity = bannerHeight / bannerStartHeight;
         opacity = textOpacity / 2;
 
-        offsetBlur( topDist, textOpacity );
+        offsetDist( topDist, textOpacity );
         setOpacity( opacity ) 
         
     };
@@ -55,19 +54,23 @@
       
     }
 
+
    /*
     * calculate banner opacity
     */
     setOpacity = function(opacity){
+
       $opacityElem.css({
         opacity: opacity
       });
+    
     }
+
 
    /*
     *  calculate the text fade and the top offset
     */
-    offsetBlur = function(topDist, textOpacity){
+    offsetDist = function(topDist, textOpacity){
       
       bannerHeight = bannerStartHeight - topDist,
       filterMove =  ( topDist / options.captionSpeed );
@@ -75,10 +78,10 @@
       $opacityElem.removeClass('fade-in')
 
       if (bannerHeight > 0){
-
+        console.log(11)
         $filter.css({
           opacity: textOpacity,
-          "-webkit-transform": 'translateY('+ filterMove +'px)'
+          "transform": 'translatey('+ filterMove +'px)'
         });
 
       } 
