@@ -1,4 +1,4 @@
-// run plugins on docready in one place
+// run plugins on docready 
 
 ;(function($){
 
