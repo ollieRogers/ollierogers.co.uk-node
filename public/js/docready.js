@@ -2,6 +2,7 @@
 
 ;(function($){
 
+
   // blurry banner for desktop only
   if(!Modernizr.touch){
     $('#banner').blurScroll({
@@ -10,8 +11,16 @@
     })
   }
 
+
   // lazy load images
   $('img.lazy').unveil();
+
+
+
+  // show banner after page loaded
+  window.onload = function(){
+    $opacityElem.removeClass('hidden');
+  }
 
 
 })(jQuery);

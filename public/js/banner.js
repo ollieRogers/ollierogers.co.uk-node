@@ -45,14 +45,7 @@
 
 
 
-   /*
-    *  show banner after page loaded
-    */
-    window.onload = function(){
 
-      $opacityElem.removeClass('hidden');
-      
-    }
 
 
    /*
