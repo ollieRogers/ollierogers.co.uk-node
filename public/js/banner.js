@@ -78,7 +78,6 @@
       $opacityElem.removeClass('fade-in')
 
       if (bannerHeight > 0){
-        console.log(11)
         $filter.css({
           opacity: textOpacity,
           "transform": 'translatey('+ filterMove +'px)'
