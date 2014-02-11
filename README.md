@@ -3,7 +3,7 @@ ollierogers.co.uk
 
 The source for [my website](http://www.ollierogers.co.uk "ollierogers.co.uk"). Runs on node.js. 
 
-If you aren't running node you can install it here [node.js](http://www.node.org "node project").
+If you aren't running node you can install it here [node.js](http://nodejs.org/ "node project").
 
 Once node is up and running clone this repo.
 
