@@ -51,13 +51,10 @@
           });
         },  
         error: function(){
-          // TODO do something for Form Error
+          // TODO - do something for Form Error
         }
       });  
-    } else {
-      alert('NOPE')
-    }
-
+    } 
 
   });
 
