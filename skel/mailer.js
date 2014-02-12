@@ -19,8 +19,8 @@ var mailer = function(req, res) {
   smtpTrans = nodemailer.createTransport('SMTP', {
       service: 'Gmail',
       auth: {
-          user: <%= email %>,
-          pass: <%= passkey %> 
+          user: "<%= email %>",
+          pass: "<%= passkey %>" 
       }
   });
 
