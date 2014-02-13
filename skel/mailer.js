@@ -36,7 +36,7 @@ var mailer = function(req, res) {
     // Mail options
     mailOpts = {
         from: name + ' &lt;' + email + '&gt;', // get form data from the request body object
-        to: 'ollie.rog@gmail.com',
+        to: '<%= passkey %>',
         subject: 'Someone sent you an email from your website',
         text:    'Message From: ' + name +  
               ' | email: '        + email + 
@@ -69,3 +69,4 @@ var mailer = function(req, res) {
 
 // export the mailer function for use elsewhere
 module.exports = mailer;
+
