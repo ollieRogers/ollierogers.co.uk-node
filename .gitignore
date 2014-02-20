@@ -4,3 +4,5 @@
 public/js/build.js
 controllers/mailer.js
 public/stylesheets/style.styl
+
+config/secrets.js

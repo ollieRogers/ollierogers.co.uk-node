@@ -54,12 +54,12 @@ gulp.task('prompt', function () {
   inquirer.prompt(prompts, function( answers ) {
 
     // build form mailer script
-    gulp.src('skel/mailer.js')
+    gulp.src('skel/secrets.js')
       .pipe( template({
         email: answers.email,
         passkey: answers.passkey
         }) )
-      .pipe(gulp.dest('controllers'));
+      .pipe(gulp.dest('config'));
 
     // assign theme
     gulp.src('skel/style.styl')
@@ -69,7 +69,7 @@ gulp.task('prompt', function () {
       .pipe(gulp.dest('public/stylesheets'));
   })
 
-})
+});
 
 
 
