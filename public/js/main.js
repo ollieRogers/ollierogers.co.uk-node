@@ -5,5 +5,6 @@
 //= require modernizr.min
 //= require jquery-2.0.3.min
 //= require banner
-//= require unveil
+//= require jquery.unveil
+//= require form
 //= require docready
