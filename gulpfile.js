@@ -66,7 +66,7 @@ gulp.task('prompt', function () {
       .pipe( template({
         theme: answers.theme
         }))
-      .pipe(gulp.dest('css/stylesheets'));
+      .pipe(gulp.dest('public/css'));
   })
 
 });
