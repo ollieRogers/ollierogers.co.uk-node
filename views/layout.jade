@@ -2,7 +2,7 @@ doctype html
 html
   head
     title Ollie Rogers | #{title}
-    link( rel='stylesheet', href='/stylesheets/style.css' )
+    != css('style') 
     meta( name="viewport", content="width=device-width, initial-scale=1, user-scalable=1")
     meta( name="description", content="Designer and front end developer based in Hove. Works at 3ev" )
   body
@@ -20,4 +20,4 @@ html
 
       block contact 
 
-    include ./partials/javascript
+    != js('main') 
