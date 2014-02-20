@@ -17,11 +17,19 @@ app.set( 'views', path.join(__dirname, 'views'));  // set views location
 app.set( 'view engine', 'jade');                   // set jade as view engine
 app.use( require('connect-assets')({               // asset pipeline
   src: 'public',
-  helperContext: app.locals
+  helperContext: app.locals,
+  compress: {
+    dev: false, 
+    prod: true 
+  }
 }) );
 app.use( express.compress());                      // compress response data with gzip / deflate 
 app.use( express.static( __dirname + '/public') ); // location for static files
 app.use( express.bodyParser() );                   // use body parser to break down requests
+if (process.env.NODE_ENV === 'development'){       // log requests to console in development
+  app.use(express.logger('dev'));   
+}
+
 
 
 
