@@ -2,7 +2,6 @@
 *.out
 
 public/js/build.js
-controllers/mailer.js
 config/secrets.js
 builtAssets
 public/css/style.styl
