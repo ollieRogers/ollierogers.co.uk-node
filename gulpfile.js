@@ -41,7 +41,7 @@ var gulp = require('gulp'),
         name: 'theme',
         type: 'list',
         message: 'choose theme',
-        choices: ["red-grey", "pink-cream", "blue-orange"]
+        choices: ["red-grey", "pink-cream", "blue-orange", "beach"]
       }
     ]
 
