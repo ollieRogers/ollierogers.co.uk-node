@@ -1,7 +1,6 @@
 *.css
 *.out
 
-public/js/build.js
 config/secrets.js
 builtAssets
 public/css/style.styl
