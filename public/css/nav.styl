@@ -21,16 +21,16 @@ nav
         text-decoration none
         line-height menu-height
         font-family menu-font
-        font-weight 800
-        font-size 20px
-        padding 0 20px
+        font-weight 100
+        font-size 24px
+        padding 0 25px
         transition(color, 200ms, ease)
         &:hover
           color lighten(menu-link-color,20%)
       &.logo 
-        width 50px
-        height 50px
-        margin-top 16px
+        width 52px
+        height 52px
+        margin-top 25px
         margin-right 20px
         a
           letter-spacing 0
@@ -41,7 +41,10 @@ nav
           &:hover 
             opacity 0.6
         .svg-logo 
-          fill menu-link-color
+          fill lighten(menu-color, 15%) 
+          box-shadow 0 0 10px black
+          &.highlight
+            fill darken(menu-color, 7%)
       &.active 
         a 
           cursor default
