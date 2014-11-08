@@ -3,6 +3,5 @@
 
 config/secrets.js
 builtAssets
-public/css/style.styl
 
 node_modules

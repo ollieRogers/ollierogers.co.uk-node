@@ -2,8 +2,8 @@ ul.nav
   li.logo
     a(href="/")
       include ./logo
-  each name in [ "work", "contact", "lab" ]
-    if ( name=="work" )
+  each name in [ "projects", "contact", "lab" ]
+    if ( name=="projects" )
       li( class=(title === 'Designer & Front End Developer' ? 'active' : '') )
         a( href='/' )= name
     else if ( name=="lab" )

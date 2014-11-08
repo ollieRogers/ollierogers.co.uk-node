@@ -1,18 +1,17 @@
 nav
   height menu-height
-  background linear-gradient(top right, menu-color, darken(menu-color, 30%) )
-  border-bottom 5px solid darken(menu-color, 30%)
-  ul 
+  background linear-gradient(top right, menu-color, darken(menu-color, 10%) )
+  ul
     padding 0
     margin 0
     height menu-height
     width 1000px
     margin 0 auto
-    li 
-      height menu-height 
+    li
+      height menu-height
       display block
       float left
-      a 
+      a
         letter-spacing 1px
         color menu-link-color
         text-transform capitalize
@@ -21,13 +20,14 @@ nav
         text-decoration none
         line-height menu-height
         font-family menu-font
-        font-weight 100
-        font-size 24px
+        text-transform uppercase
+        font-weight 500
+        font-size 16px
         padding 0 25px
         transition(color, 200ms, ease)
         &:hover
           color lighten(menu-link-color,20%)
-      &.logo 
+      &.logo
         width 52px
         height 52px
         margin-top 25px
@@ -38,17 +38,17 @@ nav
           padding 0
           height auto
           transition opacity 200ms ease
-          &:hover 
+          &:hover
             opacity 0.6
-        .svg-logo 
-          fill lighten(menu-color, 15%) 
+        .svg-logo
+          fill darken(menu-color, 25%)
           box-shadow 0 0 10px black
           &.highlight
-            fill darken(menu-color, 7%)
-      &.active 
-        a 
+            fill darken(menu-color, 30%)
+      &.active
+        a
           cursor default
           color lighten(menu-color, 100%)
-      &:last-child 
-        a 
+      &:last-child
+        a
           border-right none
