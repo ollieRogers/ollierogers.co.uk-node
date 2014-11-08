@@ -1,12 +1,12 @@
 
 
-input, button 
+input, button
   margin 0
   box-sizing border-box
 input, textarea, button
-  &:focus 
+  &:focus
     outline none
-input, textarea 
+input, textarea
   font-size 16px
   font-family body-font
   background input-bg
@@ -19,10 +19,10 @@ input, textarea
   color secondary-color
   &:focus
     border-color secondary-color
-input 
+input
   height 40px
   line-height 40px
-textarea 
+textarea
   line-height 20px
   min-height 200px
   margin 0
@@ -35,13 +35,13 @@ button
   color white
   border 3px solid darken(main-color, 10%)
   padding 0
-  margin 20px 0 0 0 
+  margin 20px 0 0 0
   font-size 24px
   cursor pointer
   overflow hidden
   &:hover
     background-color lighten(main-color, 20%)
-  .btn-text 
+  .btn-text
     padding 0 20px
     transition(all, form-transition-speed, ease)
   .btn-processing
@@ -56,7 +56,7 @@ button
     padding: 0;
     opacity 0
     transition(opacity, form-transition-speed, ease)
-.spinner 
+.spinner
   transition(right, form-transition-speed, ease)
   height 30px
   line-height 0
@@ -72,12 +72,13 @@ button
   #icon
     width 30px
     height 30px
-  .dot 
+  .dot
     fill #FFFFFF
 .form
+  max-width 600px
   transition(opacity, 1s, ease);
   padding 0
-  margin 0 0 20px 0  
+  margin 0 0 20px 0
   &.processing
     button
       background-color lighten(ok-color, 50%)
@@ -85,13 +86,13 @@ button
       .btn-text
         padding-right 55px
         padding-left 20px
-      &:hover 
+      &:hover
         background-color lighten(ok-color, 50%)
-    textarea, input 
+    textarea, input
       opacity 0.3
       pointer-events none
       border-color lighten(ok-color, 20%)
-    .spinner 
+    .spinner
       right 10px
       opacity 1
     .btn-text
@@ -110,6 +111,8 @@ button
       opacity 1
 
   button
+    border-radius 30px
+    font-size 20px
     transition(all, form-transition-speed, ease)
 
 
@@ -122,16 +125,14 @@ placeholder()
    placeholder()
 }
 
-:-moz-placeholder { 
-   placeholder()  
+:-moz-placeholder {
+   placeholder()
 }
 
-::-moz-placeholder { 
-   placeholder()  
+::-moz-placeholder {
+   placeholder()
 }
 
-:-ms-input-placeholder {  
-   placeholder()  
+:-ms-input-placeholder {
+   placeholder()
 }
-
-

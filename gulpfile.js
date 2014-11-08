@@ -6,9 +6,9 @@ var gulp = require('gulp'),
       {
         name: 'email',
         type: 'input',
-        message: 'email address', 
+        message: 'email address',
         validate: function(input) {
-          // basic validattion to prevent 
+          // basic validattion to prevent
           // empty field entry from breaking mailer
           var done = this.async();
           setTimeout(function() {
@@ -19,13 +19,13 @@ var gulp = require('gulp'),
             done(true);
           }, 300);
         }
-      }, 
+      },
       {
         name: 'passkey',
         type: 'input',
         message: 'gmail application passkey',
         validate: function(input) {
-          // basic validattion to prevent 
+          // basic validattion to prevent
           // empty field entry from breaking mailer
           var done = this.async();
           setTimeout(function() {
@@ -36,21 +36,15 @@ var gulp = require('gulp'),
             done(true);
           }, 300);
         }
-      }, 
-      {
-        name: 'theme',
-        type: 'list',
-        message: 'choose theme',
-        choices: ["red-grey", "pink-cream", "blue-orange", "beach"]
       }
     ]
 
 
 
-// use inquirer to prompt user for app 
+// use inquirer to prompt user for app
 // settings at time of deployment
 gulp.task('prompt', function () {
-  
+
   inquirer.prompt(prompts, function( answers ) {
 
     // build form mailer script
@@ -76,4 +70,3 @@ gulp.task('prompt', function () {
 
 // set gulp default
 gulp.task('default', ['prompt']);
-

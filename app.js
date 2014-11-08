@@ -3,7 +3,7 @@
  */
 var express = require( 'express' ),
     stylus = require( 'stylus' ),
-    nib = require( 'nib') , 
+    nib = require( 'nib') ,
     mailer = require( "./controllers/mailer" ),
     path = require('path'),
     app = express();
@@ -19,15 +19,15 @@ app.use( require('connect-assets')({               // asset pipeline
   src: 'public',
   helperContext: app.locals,
   compress: {
-    dev: false, 
-    prod: true 
+    dev: false,
+    prod: true
   }
 }) );
-app.use( express.compress());                      // compress response data with gzip / deflate 
+app.use( express.compress());                      // compress response data with gzip / deflate
 app.use( express.static( __dirname + '/public') ); // location for static files
 app.use( express.bodyParser() );                   // use body parser to break down requests
 if (process.env.NODE_ENV === 'development'){       // log requests to console in development
-  app.use(express.logger('dev'));   
+  app.use(express.logger('dev'));
 }
 
 
