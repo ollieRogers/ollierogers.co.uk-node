@@ -16,6 +16,16 @@ module.exports = {
         display: "standalone",
         icons: [
           {
+            src: `/favicons/icon-152x152.png`,
+            sizes: `152x152`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/icon-180x180.png`,
+            sizes: `180x152`,
+            type: `image/png`,
+          },
+          {
             src: `/favicons/icon-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
