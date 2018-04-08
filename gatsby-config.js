@@ -16,7 +16,7 @@ module.exports = {
         display: "standalone",
         icons: [
           {
-            src: `/favicons/android-icon-192x192.png`,
+            src: `/icon-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
