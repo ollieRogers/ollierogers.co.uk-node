@@ -11,6 +11,12 @@ const TemplateWrapper = ({ children }) => (
       title="Ollie Rogers"
       meta={[
         { name: 'description', content: 'Designer and front end developer based in Bournemouth UK.' },
+        { name: "apple-mobile-web-app-capable", content: "yes" },
+        { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+        { name: "apple-mobile-web-app-title", content: "CW Loan Calc" },
+        { rel: "apple-touch-icon", href: "/favicons/icon-152x152.png" },
+        { rel: "apple-touch-icon", href: "/favicons/icon-152x152.png", sizes: "152x152" },
+        { rel: "apple-touch-icon", href: "/favicons/icon-180x180.png", sizes: "180x180" },
       ]}
     >
       <html lang="en" />
