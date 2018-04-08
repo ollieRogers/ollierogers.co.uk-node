@@ -3,8 +3,14 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
   <div>
-    <h1>Ollie rogers</h1>
-    <p>Designer & Front end developer in Bournemouth UK.</p>
+    <p>Designer & Front end developer, based in Bournemouth UK.</p>
+    <p>
+      <a href="https://github.com/ollieRogers">Github</a>
+      <br/>
+      <a href="https://www.linkedin.com/in/ollierogers/">LinkedIn</a>
+      <br/>
+      <a href="https://twitter.com/ollie_rogers">Twitter</a>
+    </p>
   </div>
 )
 

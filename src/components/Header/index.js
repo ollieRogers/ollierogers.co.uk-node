@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Ollie
+          Ollie Rogers
         </Link>
       </h1>
     </div>
