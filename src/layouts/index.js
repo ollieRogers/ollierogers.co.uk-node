@@ -12,7 +12,9 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'Designer and front end developer based in Bournemouth UK.' },
       ]}
-    />
+    >
+      <html lang="en" />
+    </Helmet>
     <Header />
     <div
       style={{
