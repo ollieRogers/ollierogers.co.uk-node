@@ -1,6 +1,8 @@
 *.css
 *.out
 
+.cache/*
+
 config/secrets.js
 builtAssets
 
