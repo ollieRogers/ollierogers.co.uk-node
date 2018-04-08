@@ -10,6 +10,8 @@ const IndexPage = () => (
       <a href="https://www.linkedin.com/in/ollierogers/">LinkedIn</a>
       <br/>
       <a href="https://twitter.com/ollie_rogers">Twitter</a>
+      <br />
+      <a href="https://codepen.io/ollieRogers/">Codepen</a>
     </p>
   </div>
 )
