@@ -1,21 +1,26 @@
-ollierogers.co.uk
-=================
+# gatsby-starter-default
+The default Gatsby starter.
 
-The source for [my website](http://www.ollierogers.co.uk "ollierogers.co.uk"). Runs on node.js. 
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
-If you aren't running node you can install it [here](http://nodejs.org/ "node project").
+## Install
 
-Once node is up and running clone this repo. 
+Make sure that you have the Gatsby CLI program installed:
+```sh
+npm install --global gatsby-cli
+```
 
-`cd` to the directory you cloned to. Then run `npm install` to install project dependencies.
+And run from your CLI:
+```sh
+gatsby new gatsby-example-site
+```
 
-Once you have installed project dependencies, you will need to configure the site with [gulp](http://gulpjs.com/ "gulp project site"). Do this run `gulp` from the sites root. You will need a gmail application key and an email address in order to get the contact form to work.
+Then you can run it by:
+```sh
+cd gatsby-example-site
+npm run develop
+```
 
-Finally run `NODE_ENV=production node app` to run the site for production, in your browser of choice go to `http://localhost:3000/`.
+## Deploy
 
-In development run `NODE_ENV=development node app`. If you have [nodemon](https://github.com/remy/nodemon "nodemon by Remy Sharp") installed then run `NODE_ENV=development nodemon app.js` to run the site in development.
-
-
-
-
-
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)

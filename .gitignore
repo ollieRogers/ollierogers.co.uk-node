@@ -5,3 +5,4 @@ config/secrets.js
 builtAssets
 
 node_modules
+public
