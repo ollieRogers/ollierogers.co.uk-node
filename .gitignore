@@ -1,7 +1,7 @@
-*.css
 *.out
+*.log
 
-config/secrets.js
-builtAssets
+.cache
 
 node_modules
+public

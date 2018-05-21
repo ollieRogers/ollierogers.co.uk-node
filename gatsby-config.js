@@ -1,0 +1,43 @@
+module.exports = {
+  siteMetadata: {
+    title: 'Ollie Rogers',
+  },
+  plugins: [
+    'gatsby-plugin-react-helmet', 
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Ollie Rogers",
+        short_name: "Ollie Rogers",
+        start_url: "/",
+        background_color: "#ffffff",
+        theme_color: "#666666",
+        display: "standalone",
+        icons: [
+          {
+            src: `/favicons/icon-152x152.png`,
+            sizes: `152x152`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/icon-180x180.png`,
+            sizes: `180x152`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/icon-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/icon-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+         
+        ],
+      },
+    },
+  ],
+};
