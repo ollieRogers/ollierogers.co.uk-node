@@ -1,43 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: 'Ollie Rogers',
+    title: "Ollie Rogers",
+    author: "Ollie Rogers",
+    description: "Front End Developer, & Designer, based in Bournemouth, UK"
   },
   plugins: [
-    'gatsby-plugin-react-helmet', 
-    'gatsby-plugin-offline',
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Ollie Rogers",
-        short_name: "Ollie Rogers",
-        start_url: "/",
-        background_color: "#ffffff",
-        theme_color: "#666666",
-        display: "standalone",
-        icons: [
-          {
-            src: `/favicons/icon-152x152.png`,
-            sizes: `152x152`,
-            type: `image/png`,
-          },
-          {
-            src: `/favicons/icon-180x180.png`,
-            sizes: `180x152`,
-            type: `image/png`,
-          },
-          {
-            src: `/favicons/icon-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/favicons/icon-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-         
-        ],
+        name: 'gatsby-starter-default',
+        short_name: 'starter',
+        start_url: '/',
+        background_color: '#ff5e02',
+        theme_color: '#ff5e02',
+        display: 'minimal-ui',
+        icon: 'src/assets/images/website-icon.png',
       },
     },
+    'gatsby-plugin-sass',
+    'gatsby-plugin-offline'
   ],
-};
+}
