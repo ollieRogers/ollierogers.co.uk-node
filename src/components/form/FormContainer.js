@@ -19,6 +19,7 @@ export const FormContainer = () => {
           ></textarea>
         </div>
       </div>
+      <input className="submit" type="submit" value="Send Message" />
     </form>
   )
 }

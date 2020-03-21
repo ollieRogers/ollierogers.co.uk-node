@@ -56,11 +56,6 @@ const HomeIndex = () => {
           <div className="row">
             <div className="8u 12u$(small)">
               <FormContainer />
-              <ul className="actions">
-                <li>
-                  <input type="submit" value="Send Message" />
-                </li>
-              </ul>
             </div>
           </div>
         </section>
