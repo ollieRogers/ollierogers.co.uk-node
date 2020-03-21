@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FormContainer = () => {
   return (
-    <form name="contact" netlify>
+    <form name="contact" method="POST" data-netlify="true">
       <div className="row uniform 50%">
         <div className="6u 12u$(xsmall)">
           <input type="text" name="name" id="name" placeholder="Name" />
