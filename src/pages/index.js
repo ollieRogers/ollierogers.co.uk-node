@@ -6,7 +6,6 @@ import Gallery from '../components/Gallery'
 import Icons from '../components/Icons'
 
 import { CvDownload } from '../components/CvDownload'
-import { FormContainer } from '../components/form'
 
 
 const HomeIndex = () => {
@@ -48,16 +47,9 @@ const HomeIndex = () => {
         <section id="two">
           <h2>Projects</h2>
           <Gallery />
-          <CvDownload />
-        </section>
-
-        <section id="three">
-          <h2>Get In Touch</h2>
-          <div className="row">
-            <div className="8u 12u$(small)">
-              <FormContainer />
-            </div>
-          </div>
+          <section id="three">
+            <a href="mailto:ollie.rog@gmail.com" className="button">Get in touch</a>
+          </section>
         </section>
       </div>
     </Layout>
