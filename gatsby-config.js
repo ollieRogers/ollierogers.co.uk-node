@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'ollie-rogers',
+        short_name: 'ollie',
         start_url: '/',
         background_color: '#ff5e02',
         theme_color: '#ff5e02',
