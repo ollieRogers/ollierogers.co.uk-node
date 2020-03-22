@@ -7,6 +7,15 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-71084590-2",
+        head: false,
+        respectDNT: true,
+        cookieDomain: "ollierogers.co.uk",
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'ollie-rogers',
