@@ -2,11 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import Gallery from '../components/Gallery'
 import Icons from '../components/Icons'
 
 import { CvDownload } from '../components/CvDownload'
-
 
 const HomeIndex = () => {
   const siteTitle = 'Ollie Rogers'
@@ -30,26 +28,19 @@ const HomeIndex = () => {
             project management.
           </p>
           <Icons />
-          <h3>Skills</h3>
+          <h3>Soft Skills</h3>
           <p>
             Team leadership, Front end development, UI design, Project
             management, Mentorship, Coaching, Critical thinking.
           </p>
-          <h3>Tools</h3>
+          <h3>Hard Skills</h3>
           <p>
             Javascript, Typescript, React, Redux, Jest, GraphQL, Apollo, Gatsby,
             Webpack, Ruby, Rails, Node, Contentful, CSS, (LESS/SASS/stylus),
             Bootstrap, Sketch, InVision, Adobe CS, Trello, Asana, Jira.
           </p>
           <CvDownload />
-        </section>
-
-        <section id="two">
-          <h2>Projects</h2>
-          <Gallery />
-          <section id="three">
-            <a href="mailto:ollie.rog@gmail.com" className="button">Get in touch</a>
-          </section>
+          <a href="mailto:ollie.rog@gmail.com" className="button">Get in touch</a>
         </section>
       </div>
     </Layout>

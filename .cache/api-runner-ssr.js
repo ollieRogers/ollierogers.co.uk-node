@@ -2,8 +2,11 @@ var plugins = [{
       plugin: require('/Users/ollie/Projects/ollierogers/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/ollie/Projects/ollierogers/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-71084590-2","head":false,"respectDNT":true,"cookieDomain":"ollierogers.co.uk"},
+    },{
       plugin: require('/Users/ollie/Projects/ollierogers/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#ff5e02","theme_color":"#ff5e02","display":"minimal-ui","icon":"src/assets/images/website-icon.png"},
+      options: {"plugins":[],"name":"ollie-rogers","short_name":"ollie","start_url":"/","background_color":"#ff5e02","theme_color":"#ff5e02","display":"minimal-ui","icon":"src/assets/images/website-icon.png"},
     },{
       plugin: require('/Users/ollie/Projects/ollierogers/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
