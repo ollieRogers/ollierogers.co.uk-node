@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('/Users/ollie/Projects/ollierogers/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/ollie/projects/ollierogers.co.uk/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/ollie/Projects/ollierogers/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-71084590-2","head":false,"respectDNT":true,"cookieDomain":"ollierogers.co.uk"},
+      plugin: require('/Users/ollie/projects/ollierogers.co.uk/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-71084590-2","head":false,"respectDNT":true,"cookieDomain":"ollierogers.co.uk","anonymize":false,"exclude":[],"pageTransitionDelay":0},
     },{
-      plugin: require('/Users/ollie/Projects/ollierogers/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"ollie-rogers","short_name":"ollie","start_url":"/","background_color":"#ff5e02","theme_color":"#ff5e02","display":"minimal-ui","icon":"src/assets/images/website-icon.png"},
+      plugin: require('/Users/ollie/projects/ollierogers.co.uk/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"ollie-rogers","short_name":"ollie","start_url":"/","background_color":"#ff5e02","theme_color":"#ff5e02","display":"minimal-ui","icon":"src/assets/images/website-icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"d3be7882ffd73a500c592fca5c10e03c"},
     },{
-      plugin: require('/Users/ollie/Projects/ollierogers/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/ollie/projects/ollierogers.co.uk/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
